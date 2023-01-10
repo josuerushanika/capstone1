@@ -43,6 +43,14 @@ span {
   height: 6px;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 24px 0;
+  margin-bottom: 20px;
+}
+
 .hamburger:hover {
   cursor: pointer;
 }
@@ -144,7 +152,7 @@ button.join {
   margin-top: 30px;
 }
 
-.button:hover {
+button:hover {
   cursor: pointer;
   opacity: 0.7;
 }
@@ -173,6 +181,11 @@ button.join {
   display: flex;
 }
 
+.lecturer-pix > .behind {
+  width: 80px;
+  height: 80px;
+}
+
 .lecturer-pix > .front {
   width: 80%;
   height: auto;
@@ -191,6 +204,12 @@ button.join {
 
 .specialization hr {
   width: 30px;
+}
+
+.partners {
+  text-align: center;
+  padding: 24px;
+  background-color: #272a31;
 }
 
 .partner-list {
@@ -234,9 +253,9 @@ footer {
   display: none;
 }
 
-/* .desktop {
+.desktop {
   display: none;
-} */
+}
 
 .menu {
   position: fixed;
@@ -258,14 +277,14 @@ footer {
 }
 
 .list .close {
-  align-items: flex-end;
+  align-self: flex-end;
 }
 
 .link {
   text-decoration: none;
 }
 
-link:hover {
+.link:hover {
   opacity: 0.7;
 }
 
@@ -280,5 +299,110 @@ link:hover {
 }
 
 .selected {
-  color: red;
+  color: red !important;
+}
+
+/* About mobile page */
+.top-section.aboutpg {
+  background-image: url("images/about-mobile.png");
+  background-size: contain;
+  background-position: 10px 6vh;
+  background-repeat: no-repeat;
+  background-color: #d3d3d3;
+}
+
+.small-underline.aboutpg {
+  width: 20px;
+}
+
+.tech-explain.aboutpg {
+  max-width: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact > a {
+  text-decoration: none;
+}
+
+.About-logo {
+  padding: 50px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.logo-p {
+  text-align: center;
+}
+
+.logo-design {
+  border: 1px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 24px;
+}
+
+.logo-head {
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2rem;
+}
+
+.logo-date {
+  font-size: 0.8rem;
+}
+
+.logo-line {
+  margin-top: 5px;
+  width: 230px;
+}
+
+.past-training {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+  padding: 50px 24px;
+}
+
+.training-pictures {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.annual1,
+.annual2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.annual1 {
+  background-image: url('images/summit-2022.jpeg');
+}
+
+.annual2 {
+  background-image: url('images/summit-2021.jpg');
+}
+
+.annual-bgCover {
+  width: 100%;
+  height: 300px;
+  background: rgba(236, 82, 66, 0.5);
+}
+
+.text-top {
+  padding-top: 30%;
+  font-size: 1.5rem;
 }
