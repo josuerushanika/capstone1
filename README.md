@@ -68,6 +68,11 @@ After you're finished please remove all the comments and instructions!
 
 <details>
   <summary>Client</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
 </details>
 
 
@@ -88,7 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link]( )
+- [Live Demo Link](https://josuerushanika.github.io/capstone1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
