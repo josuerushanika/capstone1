@@ -14,5 +14,3 @@ function menuPopup() {
 }
 hamburger.addEventListener('click', menuPopup);
 popup.addEventListener('click', menuPopup);
-
-
