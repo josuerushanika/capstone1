@@ -103,7 +103,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Loom Video]( )
+- [Loom Video](https://www.loom.com/share/9d68cf39737143b5959ac8e88a8c5b5b )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
